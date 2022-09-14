@@ -1,0 +1,65 @@
+
+/* class have dots in css------divs have hashtags */
+.choice-container {
+    display: flex;
+    margin-bottom: 0.5rem;
+    width: 100%;
+    font-size: 1.8rem;
+    border: 0.1rem solid #c70039;
+    background-color: white;
+}
+
+.choice-container:hover {
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 #c70039;
+    transform: translateY(-0.1rem);
+    transition: transform 150ms;
+}
+
+.choice-prefix {
+    padding: 1.5rem 2.5rem;
+    background-color: #c70039;
+    color: white;
+}
+
+.choice-text {
+    padding: 1.5rem;
+    width: 100%;
+}
+
+.correct {
+    background-color: green;
+}
+.incorrect {
+    background-color: red;
+}
+ /* hud being in flex makes them side by side in display/ space between puts all available space between hud score and questions */
+/* id so it gets hashtag */
+ #hud {
+    display: flex;
+    justify-content: space-between;
+ }
+/* rem is 10 pixels each */
+ .hud-prefix {
+    text-align: center;
+    font-size: 2rem;
+
+ }
+ .hud-main-text {
+    text-align: center;
+ }
+
+ .timer {
+    font-size: 2rem;
+    font-style: sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 145px;
+    height: 45px;
+    border: 1px solid #c70039;
+    border-radius: 5px;
+    padding: 0 8px;
+    
+    
+ }
